@@ -1,0 +1,2300 @@
+[
+  {
+    "issn": "2769-6472",
+    "journal_name": "Distributed Ledger Technologies: Research and Practice",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1049-331X",
+    "journal_name": "ACM Transactions on Software Engineering and Methodology",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1533-5399",
+    "journal_name": "ACM Transactions on Internet Technology",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "0360-0300",
+    "journal_name": "ACM Computing Surveys",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1551-6857",
+    "journal_name": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1539-9087",
+    "journal_name": "ACM Transactions on Embedded Computing Systems",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "2158-656X",
+    "journal_name": "ACM Transactions on Management Information Systems",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1936-1955",
+    "journal_name": "Journal of Data and Information Quality",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1084-4309",
+    "journal_name": "ACM Transactions on Design Automation of Electronic Systems",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1073-0516",
+    "journal_name": "ACM Transactions on Computer-Human Interaction",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "2375-4699",
+    "journal_name": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "0164-0925",
+    "journal_name": "ACM Transactions on Programming Languages and Systems",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "2378-962X",
+    "journal_name": "ACM Transactions on Cyber-Physical Systems",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "0734-2071",
+    "journal_name": "ACM Transactions on Computer Systems",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1556-4673",
+    "journal_name": "Journal on Computing and Cultural Heritage",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1559-1131",
+    "journal_name": "ACM Transactions on the Web",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2167-8375",
+    "journal_name": "ACM Transactions on Economics and Computation",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "2160-6455",
+    "journal_name": "ACM Transactions on Interactive Intelligent Systems",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "2157-6904",
+    "journal_name": "ACM Transactions on Intelligent Systems and Technology",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2376-3639",
+    "journal_name": "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "0004-5411",
+    "journal_name": "Journal of the ACM",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1550-4859",
+    "journal_name": "ACM Transactions on Sensor Networks",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2471-2566",
+    "journal_name": "ACM Transactions on Privacy and Security",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1550-4832",
+    "journal_name": "ACM Journal on Emerging Technologies in Computing Systems",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "0098-3500",
+    "journal_name": "ACM Transactions on Mathematical Software",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1094-9224",
+    "journal_name": "ACM Transactions on Information and System Security",
+    "country": "United States",
+    "Quartile": null
+  },
+  {
+    "issn": "2329-4949",
+    "journal_name": "ACM Transactions on Parallel Computing",
+    "country": "United States",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1556-4665",
+    "journal_name": "ACM Transactions on Autonomous and Adaptive Systems",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1046-8188",
+    "journal_name": "ACM Transactions on Information Systems",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "0730-0301",
+    "journal_name": "ACM Transactions on Graphics",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1936-7228",
+    "journal_name": "ACM Transactions on Accessible Computing",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "2374-0353",
+    "journal_name": "ACM Transactions on Spatial Algorithms and Systems",
+    "country": "United States",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1529-3785",
+    "journal_name": "ACM Transactions on Computational Logic",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1553-3077",
+    "journal_name": "ACM Transactions on Storage",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "0934-5043",
+    "journal_name": "Formal Aspects of Computing",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "2169-3536",
+    "journal_name": "IEEE Access",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2162-2345",
+    "journal_name": "IEEE Wireless Communications Letters",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2168-2208",
+    "journal_name": "IEEE Journal of Biomedical and Health Informatics",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-0008",
+    "journal_name": "IEEE Journal on Selected Areas in Communications",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2372-2541",
+    "journal_name": "IEEE Internet of Things Journal",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1941-0050",
+    "journal_name": "IEEE Transactions on Industrial Informatics",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2168-2232",
+    "journal_name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+    "country": "United States",
+    "Quartile": null
+  },
+  {
+    "issn": "1558-2191",
+    "journal_name": "IEEE Transactions on Knowledge and Data Engineering",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2376-4562",
+    "journal_name": "IEEE Transactions on Emerging Topics in Computing",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1548-0992",
+    "journal_name": "IEEE Latin America Transactions",
+    "country": "United States",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1558-0016",
+    "journal_name": "IEEE Transactions on Intelligent Transportation Systems",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1558-2558",
+    "journal_name": "IEEE Communications Letters",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1937-4178",
+    "journal_name": "IEEE Engineering Management Review",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "2509-3312",
+    "journal_name": "Journal of Communications and Information Networks",
+    "country": "China",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1943-0639",
+    "journal_name": "Journal of Optical Communications and Networking",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2372-0204",
+    "journal_name": "IEEE Transactions on Services Computing",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1937-9234",
+    "journal_name": "IEEE Systems Journal",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2398-7294",
+    "journal_name": "International Journal of Crowd Science",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1007-0214",
+    "journal_name": "Tsinghua Science and Technology",
+    "country": "China",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-0040",
+    "journal_name": "IEEE Transactions on Engineering Management",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-2183",
+    "journal_name": "IEEE Transactions on Parallel and Distributed Systems",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-1748",
+    "journal_name": "IEEE Sensors Journal",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2372-0018",
+    "journal_name": "IEEE Transactions on Cloud Computing",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1557-9956",
+    "journal_name": "IEEE Transactions on Computers",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2576-3156",
+    "journal_name": "IEEE Networking Letters",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1941-0018",
+    "journal_name": "IEEE Transactions on Dependable and Secure Computing",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2373-745X",
+    "journal_name": "IEEE Communications Surveys & Tutorials",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2096-0042",
+    "journal_name": "CSEE Journal of Power and Energy Systems",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2708-6240",
+    "journal_name": "Intelligent and Converged Networks",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2168-2275",
+    "journal_name": "IEEE Transactions on Cybernetics",
+    "country": "United States",
+    "Quartile": null
+  },
+  {
+    "issn": "1556-6021",
+    "journal_name": "IEEE Transactions on Information Forensics and Security",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2473-2400",
+    "journal_name": "IEEE Transactions on Green Communications and Networking",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2373-7476",
+    "journal_name": "IEEE Transactions on Computational Social Systems",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2096-0654",
+    "journal_name": "Big Data Mining and Analytics",
+    "country": "China",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2246-0853",
+    "journal_name": "Journal of ICT Standardization",
+    "country": "Denmark",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2373-7379",
+    "journal_name": "IEEE Transactions on Network and Service Management",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1939-9359",
+    "journal_name": "IEEE Transactions on Vehicular Technology",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2372-2096",
+    "journal_name": "IEEE Transactions on Big Data",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-0660",
+    "journal_name": "IEEE Transactions on Mobile Computing",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1949-3061",
+    "journal_name": "IEEE Transactions on Smart Grid",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-1721",
+    "journal_name": "IEEE Transactions on Reliability",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2334-329X",
+    "journal_name": "IEEE Transactions on Network Science and Engineering",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2644-125X",
+    "journal_name": "IEEE Open Journal of the Communications Society",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2644-1268",
+    "journal_name": "IEEE Open Journal of the Computer Society",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1558-2639",
+    "journal_name": "IEEE Transactions on NanoBioscience",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1939-3520",
+    "journal_name": "IEEE Transactions on Software Engineering",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2688-5255",
+    "journal_name": "Journal of Social Computing",
+    "country": "China",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2687-7813",
+    "journal_name": "IEEE Open Journal of Intelligent Transportation Systems",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1558-0806",
+    "journal_name": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-2248",
+    "journal_name": "IEEE Transactions on Wireless Communications",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-2566",
+    "journal_name": "IEEE/ACM Transactions on Networking",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-2515",
+    "journal_name": "IEEE Transactions on Applied Superconductivity",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "2372-2045",
+    "journal_name": "IEEE Transactions on Cognitive Communications and Networking",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2377-3790",
+    "journal_name": "IEEE Transactions on Sustainable Computing",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2475-1456",
+    "journal_name": "IEEE Control Systems Letters",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-3791",
+    "journal_name": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2372-2533",
+    "journal_name": "IEEE Transactions on Control of Network Systems",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-0679",
+    "journal_name": "IEEE Transactions on Power Systems",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1557-9603",
+    "journal_name": "IEEE Transactions on Aerospace and Electronic Systems",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2644-1330",
+    "journal_name": "IEEE Open Journal of Vehicular Technology",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1949-3037",
+    "journal_name": "IEEE Transactions on Sustainable Energy",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2329-9274",
+    "journal_name": "IEEE/CAA Journal of Automatica Sinica",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2162-2388",
+    "journal_name": "IEEE Transactions on Neural Networks and Learning Systems",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1557-9948",
+    "journal_name": "IEEE Transactions on Industrial Electronics",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-0857",
+    "journal_name": "IEEE Transactions on Communications",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1941-0484",
+    "journal_name": "IEEE Journal of Selected Topics in Signal Processing",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1939-9367",
+    "journal_name": "IEEE Transactions on Industry Applications",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1941-0034",
+    "journal_name": "IEEE Transactions on Fuzzy Systems",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-4127",
+    "journal_name": "IEEE Transactions on Consumer Electronics",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2379-8858",
+    "journal_name": "IEEE Transactions on Intelligent Vehicles",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2374-0132",
+    "journal_name": "IEEE Revista Iberoamericana de Tecnologias del Aprendizaje",
+    "country": "United States",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2641-8770",
+    "journal_name": "IEEE Journal on Selected Areas in Information Theory",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2689-1808",
+    "journal_name": "IEEE Transactions on Quantum Engineering",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2637-6415",
+    "journal_name": "IEEE Transactions on Technology and Society",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1544-5976",
+    "journal_name": "Journal of Web Engineering",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1460-2067",
+    "journal_name": "The Computer Journal",
+    "country": "Netherlands",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1991-1696",
+    "journal_name": "SAIEE Africa Research Journal",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1941-0506",
+    "journal_name": "IEEE Transactions on Visualization and Computer Graphics",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1976-5541",
+    "journal_name": "Journal of Communications and Networks",
+    "country": "South Korea",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2168-6785",
+    "journal_name": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1941-0476",
+    "journal_name": "IEEE Transactions on Signal Processing",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-2213",
+    "journal_name": "Journal of Lightwave Technology",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1557-9999",
+    "journal_name": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "2644-1276",
+    "journal_name": "IEEE Open Journal of Engineering in Medicine and Biology",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1941-0468",
+    "journal_name": "IEEE Transactions on Robotics",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1022-4653",
+    "journal_name": "Chinese Journal of Electronics",
+    "country": "United States",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1558-0865",
+    "journal_name": "IEEE Transactions on Control Systems Technology",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1941-0077",
+    "journal_name": "IEEE Transactions on Multimedia",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2471-285X",
+    "journal_name": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1557-9662",
+    "journal_name": "IEEE Transactions on Instrumentation and Measurement",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1937-4208",
+    "journal_name": "IEEE Transactions on Power Delivery",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2771-9197",
+    "journal_name": "iEnergy",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1004-4132",
+    "journal_name": "Journal of Systems Engineering and Electronics",
+    "country": "China",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "2644-1284",
+    "journal_name": "IEEE Open Journal of the Industrial Electronics Society",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2196-5420",
+    "journal_name": "Journal of Modern Power Systems and Clean Energy",
+    "country": "China",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2156-3365",
+    "journal_name": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1557-9654",
+    "journal_name": "IEEE Transactions on Information Theory",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2687-7910",
+    "journal_name": "IEEE Open Access Journal of Power and Energy",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-2523",
+    "journal_name": "IEEE Transactions on Automatic Control",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2160-9292",
+    "journal_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-2205",
+    "journal_name": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-2361",
+    "journal_name": "IEEE Signal Processing Letters",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1941-0042",
+    "journal_name": "IEEE Transactions on Image Processing",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2329-9304",
+    "journal_name": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2151-1535",
+    "journal_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-2256",
+    "journal_name": "Proceedings of the IEEE",
+    "country": "United States",
+    "Quartile": null
+  },
+  {
+    "issn": "1943-0671",
+    "journal_name": "IEEE Embedded Systems Letters",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1937-4151",
+    "journal_name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-3783",
+    "journal_name": "IEEE Transactions on Automation Science and Engineering",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2637-6407",
+    "journal_name": "IEEE Transactions on Biometrics, Behavior, and Identity Science",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1558-4542",
+    "journal_name": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2771-9987",
+    "journal_name": "IEEE Open Journal of Systems Engineering",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1940-9990",
+    "journal_name": "IEEE Transactions on Biomedical Circuits and Systems",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "2469-729X",
+    "journal_name": "IEEE Journal of Radio Frequency Identification",
+    "country": "United States",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1742-7185",
+    "journal_name": "International Journal of Computational Science and Engineering",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "0267-5730",
+    "journal_name": "International Journal of Technology Management",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1741-1041",
+    "journal_name": "International Journal of Public Sector Performance Management",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2516-6425",
+    "journal_name": "International Journal of Blockchains and Cryptocurrencies",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1475-3219",
+    "journal_name": "International Journal of Critical Infrastructures",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1741-1106",
+    "journal_name": "International Journal of Web and Grid Services",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1741-847X",
+    "journal_name": "International Journal of Grid and Utility Computing",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1742-7509",
+    "journal_name": "International Journal of Electronic Governance",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1740-0562",
+    "journal_name": "International Journal of High Performance Computing and Networking",
+    "country": "United Kingdom",
+    "Quartile": null
+  },
+  {
+    "issn": "1470-6067",
+    "journal_name": "International Journal of Electronic Business",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1471-0226",
+    "journal_name": "International Journal of Vehicle Autonomous Systems",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1743-8187",
+    "journal_name": "International Journal of Business Intelligence and Data Mining",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1746-5370",
+    "journal_name": "International Journal of Technoentrepreneurship",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1748-569X",
+    "journal_name": "International Journal of Internet Technology and Secured Transactions",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2055-6780",
+    "journal_name": "International Journal of Financial Innovation in Banking",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1478-9647",
+    "journal_name": "International Journal of Intellectual Property Management",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1744-1765",
+    "journal_name": "International Journal of Information and Computer Security",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1746-6172",
+    "journal_name": "International Journal of Modelling, Identification and Control",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1756-9850",
+    "journal_name": "International Journal of Economics and Business Research",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1740-2832",
+    "journal_name": "International Journal of Technology Intelligence and Planning",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1752-5055",
+    "journal_name": "International Journal of Computing Science and Mathematics",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1753-3627",
+    "journal_name": "International Journal of Business and Globalisation",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1751-911X",
+    "journal_name": "International Journal of Electronic Security and Digital Forensics",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1740-8865",
+    "journal_name": "International Journal of Intelligent Systems Technologies and Applications",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1751-6528",
+    "journal_name": "International Journal of High Performance Systems Architecture",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1752-1270",
+    "journal_name": "International Journal of Chinese Culture and Management",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1740-2123",
+    "journal_name": "International Journal of Simulation and Process Modelling",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1741-9174",
+    "journal_name": "International Journal of Agile Systems and Management",
+    "country": "Switzerland",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1744-6635",
+    "journal_name": "International Journal of Business Forecasting and Marketing Intelligence",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2399-1275",
+    "journal_name": "International Journal of Spatio-Temporal Data Science",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1754-3916",
+    "journal_name": "International Journal of Communication Networks and Distributed Systems",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1748-1279",
+    "journal_name": "International Journal of Sensor Networks",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1751-0252",
+    "journal_name": "International Journal of Business Innovation and Research",
+    "country": "United Kingdom",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1743-8225",
+    "journal_name": "International Journal of Ad Hoc and Ubiquitous Computing",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1741-1084",
+    "journal_name": "International Journal of Wireless and Mobile Computing",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1741-8453",
+    "journal_name": "International Journal of Electronic Healthcare",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2043-8346",
+    "journal_name": "International Journal of Creative Computing",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1746-0972",
+    "journal_name": "International Journal of Business Information Systems",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1477-5360",
+    "journal_name": "International Journal of Integrated Supply Management",
+    "country": "United Kingdom",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1740-7494",
+    "journal_name": "Electronic Government, an International Journal",
+    "country": "United States",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1462-4621",
+    "journal_name": "International Journal of Management and Decision Making",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1741-1068",
+    "journal_name": "International Journal of Embedded Systems",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1742-7967",
+    "journal_name": "International Journal of Logistics Systems and Management",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": null,
+    "journal_name": "International Journal of Applied Decision Sciences",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1470-949X",
+    "journal_name": "International Journal of Mobile Communications",
+    "country": "United Kingdom",
+    "Quartile": null
+  },
+  {
+    "issn": "1368-2156",
+    "journal_name": "International Journal of Healthcare Technology and Management",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1752-9131",
+    "journal_name": "International Journal of Computational Vision and Robotics",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1757-8752",
+    "journal_name": "International Journal of Auditing Technology",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1743-5099",
+    "journal_name": "International Journal of Forensic Software Engineering",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1745-0071",
+    "journal_name": "International Journal of Transitions and Innovation Systems",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2046-3391",
+    "journal_name": "International Journal of Computational Systems Engineering",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1756-2511",
+    "journal_name": "International Journal of Society Systems Science",
+    "country": "United Kingdom",
+    "Quartile": null
+  },
+  {
+    "issn": "1741-8496",
+    "journal_name": "International Journal of Information Privacy, Security and Integrity",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1477-8394",
+    "journal_name": "International Journal of Web Based Communities",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2049-0887",
+    "journal_name": "International Journal of Diplomacy and Economy",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1755-8913",
+    "journal_name": "International Journal of Applied Management Science",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2041-868X",
+    "journal_name": "International Journal of Economics and Accounting",
+    "country": "United States",
+    "Quartile": null
+  },
+  {
+    "issn": "1753-6235",
+    "journal_name": "International Journal of Private Law",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1756-7017",
+    "journal_name": "International Journal of Information and Decision Sciences",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1748-5673",
+    "journal_name": "International Journal of Data Mining and Bioinformatics",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1751-4088",
+    "journal_name": "International Journal of Electric and Hybrid Vehicles",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "0952-8091",
+    "journal_name": "International Journal of Computer Applications in Technology",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1466-6642",
+    "journal_name": "International Journal of Information and Communication Technology",
+    "country": "Pakistan",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1470-9503",
+    "journal_name": "International Journal of Networking and Virtual Organisations",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1757-2657",
+    "journal_name": "International Journal of Computer Aided Engineering and Technology",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1748-0671",
+    "journal_name": "International Journal of System of Systems Engineering",
+    "country": "Canada",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1746-0069",
+    "journal_name": "International Journal of Electronic Finance",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1741-5357",
+    "journal_name": "International Journal of Value Chain Management",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1753-5239",
+    "journal_name": "International Journal of Electronic Banking",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1471-0242",
+    "journal_name": "International Journal of Vehicle Information and Communication Systems",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1747-8405",
+    "journal_name": "International Journal of Security and Networks",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1758-8715",
+    "journal_name": "International Journal of Intelligent Engineering Informatics",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2631-8679",
+    "journal_name": "International Journal of Big Data Management",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1754-8632",
+    "journal_name": "International Journal of Autonomous and Adaptive Communications Systems",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1477-9064",
+    "journal_name": "International Journal of Management Practice",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1751-5254",
+    "journal_name": "European Journal of Industrial Engineering",
+    "country": "United Kingdom",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1741-2242",
+    "journal_name": "World Review of Science, Technology and Sustainable Development",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1753-5255",
+    "journal_name": "International Journal of Technology Enhanced Learning",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1468-4322",
+    "journal_name": "International Journal of Technology, Policy and Management",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1743-8209",
+    "journal_name": "International Journal of Internet Protocol Technology",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2054-5819",
+    "journal_name": "International Journal of Sustainable Agricultural Management and Informatics",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2046-4770",
+    "journal_name": "African Journal of Economic and Sustainable Development",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1479-2494",
+    "journal_name": "International Journal of Six Sigma and Competitive Advantage",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1460-6712",
+    "journal_name": "International Journal of Financial Services Management",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "0954-7118",
+    "journal_name": "International Journal of Global Energy Issues",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1755-8077",
+    "journal_name": "International Journal of Applied Decision Sciences",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1753-1942",
+    "journal_name": "International Journal of Technological Learning, Innovation and Development",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1751-0589",
+    "journal_name": "International Journal of Applied Systemic Studies",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1477-9056",
+    "journal_name": "International Journal of Product Development",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1753-8432",
+    "journal_name": "International Journal of Procurement Management",
+    "country": "Switzerland",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1461-4111",
+    "journal_name": "International Journal of Information Technology and Management",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1748-5037",
+    "journal_name": "International Journal of Industrial and Systems Engineering",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1758-938X",
+    "journal_name": "International Journal of Advanced Operations Management",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2040-4468",
+    "journal_name": "International Journal of Knowledge-Based Development",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1757-8779",
+    "journal_name": "International Journal of Critical Computer-Based Systems",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1368-4892",
+    "journal_name": "International Journal of Business Performance Management",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2040-0721",
+    "journal_name": "International Journal of Social Computing and Cyber-Physical Systems",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1755-0653",
+    "journal_name": "International Journal of Medical Engineering and Informatics",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1368-2148",
+    "journal_name": "International Journal of Manufacturing Technology and Management",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2059-7770",
+    "journal_name": "International Journal of Sustainable Real Estate and Construction Economics",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2043-9989",
+    "journal_name": "International Journal of Cloud Computing",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1756-7130",
+    "journal_name": "International Journal of Financial Markets and Derivatives",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2042-3462",
+    "journal_name": "International Journal of Multimedia Intelligence and Security",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1749-4729",
+    "journal_name": "World Review of Intermodal Transportation Research",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2053-1389",
+    "journal_name": "International Journal of Big Data Intelligence",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2044-7663",
+    "journal_name": "International Journal of Public Law and Policy",
+    "country": "Switzerland",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1740-2107",
+    "journal_name": "International Journal of Adaptive and Innovative Systems",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1755-151X",
+    "journal_name": "International Journal of Innovation in Education",
+    "country": "Australia",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1752-0452",
+    "journal_name": "International Journal of Economic Policy in Emerging Economies",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1744-2370",
+    "journal_name": "International Journal of Services and Operations Management",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2053-0811",
+    "journal_name": "International Journal of Data Science",
+    "country": "Switzerland",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1756-6517",
+    "journal_name": "International Journal of Shipping and Transport Logistics",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1460-6739",
+    "journal_name": "International Journal of Process Management and Benchmarking",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1476-5667",
+    "journal_name": "International Journal of Technology and Globalisation",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1755-9758",
+    "journal_name": "International Journal of Engineering Systems Modelling and Simulation",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1751-6757",
+    "journal_name": "European Journal of International Management",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1744-5485",
+    "journal_name": "International Journal of Bioinformatics Research and Applications",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1746-0573",
+    "journal_name": "World Review of Entrepreneurship, Management and Sustainable Development",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1755-8301",
+    "journal_name": "International Journal of Biometrics",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1741-539X",
+    "journal_name": "International Journal of Services Operations and Informatics",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1749-9151",
+    "journal_name": "International Journal of Teaching and Case Studies",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1758-9401",
+    "journal_name": "International Journal of Business Performance and Supply Chain Modelling",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1744-9928",
+    "journal_name": "International Journal of Green Economics",
+    "country": "United Kingdom",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1755-0556",
+    "journal_name": "International Journal of Reasoning-based Intelligent Systems",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2052-8434",
+    "journal_name": "International Journal of Telemedicine and Clinical Practices",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1741-5373",
+    "journal_name": "International Journal of Logistics Economics and Globalisation",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1748-1252",
+    "journal_name": "International Journal of Enterprise Network Management",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1097-4954",
+    "journal_name": "Global Business and Economics Review",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1470-6075",
+    "journal_name": "International Journal of Technology Transfer and Commercialisation",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1470-9511",
+    "journal_name": "International Journal of Automotive Technology and Management",
+    "country": "United Kingdom",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1745-3232",
+    "journal_name": "International Journal of Intelligent Enterprise",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2050-0467",
+    "journal_name": "International Journal of Sustainable Aviation",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1746-6474",
+    "journal_name": "International Journal of Productivity and Quality Management",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1752-7767",
+    "journal_name": "American Journal of Finance and Accounting",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1742-7223",
+    "journal_name": "International Journal of Sustainable Manufacturing",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1743-5110",
+    "journal_name": "International Journal of Product Lifecycle Management",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2042-4094",
+    "journal_name": "International Journal of Modelling in Operations Management",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1753-0822",
+    "journal_name": "International Journal of Services, Economics and Management",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1479-3121",
+    "journal_name": "International Journal of Information Systems and Change Management",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1476-1289",
+    "journal_name": "International Journal of Web Engineering and Technology",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2052-868X",
+    "journal_name": "International Journal of Supply Chain and Operations Resilience",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1753-5212",
+    "journal_name": "International Journal of Digital Culture and Electronic Tourism",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1759-1163",
+    "journal_name": "International Journal of Data Mining, Modelling and Management",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1476-1297",
+    "journal_name": "International Journal of Entrepreneurship and Small Business",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1740-0589",
+    "journal_name": "International Journal of Business Environment",
+    "country": "United States",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1472-8923",
+    "journal_name": "International Journal of Energy Technology and Policy",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1560-4624",
+    "journal_name": "International Journal of Continuing Engineering Education and Life Long Learning",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1744-2869",
+    "journal_name": "International Journal of Mobile Network Design and Innovation",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1755-4500",
+    "journal_name": "International Journal of Computational Medicine and Healthcare",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1753-0806",
+    "journal_name": "International Journal of Indian Culture and Business Management",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1751-648X",
+    "journal_name": "International Journal of Innovative Computing and Applications",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "0268-1900",
+    "journal_name": "International Journal of Materials and Product Technology",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1756-6975",
+    "journal_name": "International Journal of Quality and Innovation",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1751-6048",
+    "journal_name": "International Journal of Internet Manufacturing and Services",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1756-5804",
+    "journal_name": "International Journal of Sustainable Economy",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1742-7541",
+    "journal_name": "International Journal of Trade and Global Markets",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1741-8771",
+    "journal_name": "International Journal of Business Process Integration and Management",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1521-0227",
+    "journal_name": "Interdisciplinary Environmental Review",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1751-3227",
+    "journal_name": "International Journal of Information Systems and Management",
+    "country": "Portugal",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1756-0322",
+    "journal_name": "International Journal of Knowledge Management in Tourism and Hospitality",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1742-5360",
+    "journal_name": "International Journal of Entrepreneurial Venturing",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1757-5850",
+    "journal_name": "International Journal of Mathematics in Operational Research",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1758-728X",
+    "journal_name": "International Journal of Ultra Wideband Communications and Systems",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1752-6418",
+    "journal_name": "International Journal of Biomedical Engineering and Technology",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2059-7967",
+    "journal_name": "International Journal of Internet of Things and Cyber-Assurance",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1740-8938",
+    "journal_name": "International Journal of Work Organisation and Emotion",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1755-8050",
+    "journal_name": "International Journal of Data Analysis Techniques and Strategies",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1753-7169",
+    "journal_name": "International Journal of Decision Sciences, Risk and Management",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2043-8257",
+    "journal_name": "International Journal of Social Entrepreneurship and Innovation",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1753-3600",
+    "journal_name": "International Journal of Sustainable Strategic Management",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1460-6720",
+    "journal_name": "International Journal of Services Technology and Management",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2057-0538",
+    "journal_name": "International Journal of Bibliometrics in Business and Management",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2056-9432",
+    "journal_name": "International Journal of Competitiveness",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1740-2816",
+    "journal_name": "International Journal of Foresight and Innovation Policy",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1742-7525",
+    "journal_name": "International Journal of Electronic Trade",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1478-1484",
+    "journal_name": "International Journal of Management Concepts and Philosophy",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2059-089X",
+    "journal_name": "International Journal of Export Marketing",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1751-5858",
+    "journal_name": "International Journal of Intelligent Information and Database Systems",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1740-8822",
+    "journal_name": "International Journal of Innovation and Sustainable Development",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2516-1962",
+    "journal_name": "International Journal of Agriculture Innovation, Technology and Globalisation",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1756-2538",
+    "journal_name": "International Journal of Sustainable Society",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1753-0563",
+    "journal_name": "International Journal of Applied Cryptography",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1466-6650",
+    "journal_name": "International Journal of Global Environmental Issues",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1549-9324",
+    "journal_name": "Journal for International Business and Entrepreneurship Development",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1757-1154",
+    "journal_name": "International Journal of Power and Energy Conversion",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1754-890X",
+    "journal_name": "International Journal of Mining and Mineral Engineering",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2051-7122",
+    "journal_name": "International Journal of Collaborative Intelligence",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1751-200X",
+    "journal_name": "International Journal of Business and Systems Research",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1755-9340",
+    "journal_name": "International Journal of Systems, Control and Communications",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1759-5673",
+    "journal_name": "International Journal of Education Economics and Development",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2631-7060",
+    "journal_name": "International Journal of Intelligent Internet of Things Computing",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1471-8197",
+    "journal_name": "International Journal of Innovation and Learning",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1475-7435",
+    "journal_name": "International Journal of Nanotechnology",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1476-8917",
+    "journal_name": "Progress in Industrial Ecology, an International Journal",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1758-2083",
+    "journal_name": "International Journal of Global Warming",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2056-6549",
+    "journal_name": "International Journal of Humanitarian Technology",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2055-0944",
+    "journal_name": "International Journal of Islamic Marketing and Branding",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2049-4041",
+    "journal_name": "International Journal of Swarm Intelligence",
+    "country": "United States",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2056-4058",
+    "journal_name": "International Journal of Smart Technology and Learning",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2052-0336",
+    "journal_name": "Latin American Journal of Management for Sustainable Development",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1755-0386",
+    "journal_name": "International Journal of Advanced Intelligence Paradigms",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1755-4977",
+    "journal_name": "International Journal of Computational Intelligence Studies",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "0960-1406",
+    "journal_name": "International Journal of Sustainable Development",
+    "country": "United Kingdom",
+    "Quartile": "Q1"
+  },
+  {
+    "issn": "1755-4950",
+    "journal_name": "International Journal of Artificial Intelligence and Soft Computing",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1753-6219",
+    "journal_name": "International Journal of Business and Emerging Markets",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1758-0366",
+    "journal_name": "International Journal of Bio-Inspired Computation",
+    "country": "Switzerland",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1757-9848",
+    "journal_name": "International Journal of Critical Accounting",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1479-3059",
+    "journal_name": "International Journal of Globalisation and Small Business",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2042-3217",
+    "journal_name": "International Journal of Information Technology, Communications and Convergence",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1741-878X",
+    "journal_name": "International Journal of Technology Marketing",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1757-5567",
+    "journal_name": "International Journal of Leisure and Tourism Marketing",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1740-8008",
+    "journal_name": "International Journal of Accounting, Auditing and Performance Evaluation",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "2042-3845",
+    "journal_name": "International Journal of Business Competition and Growth",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "0957-4352",
+    "journal_name": "International Journal of Environment and Pollution",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1741-1009",
+    "journal_name": "International Journal of Knowledge and Learning",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1466-8297",
+    "journal_name": "International Journal of Risk Assessment and Management",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "2055-1703",
+    "journal_name": "EuroMed Journal of Management",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1756-0047",
+    "journal_name": "International Journal of Business Excellence",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1741-1025",
+    "journal_name": "International Journal of Electronic Marketing and Retailing",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1477-8386",
+    "journal_name": "International Journal of Learning Technology",
+    "country": "United Kingdom",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1753-6715",
+    "journal_name": "International Journal of Managerial and Financial Accounting",
+    "country": "Switzerland",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1750-385X",
+    "journal_name": "International Journal of Management in Education",
+    "country": "United Kingdom",
+    "Quartile": "Q2"
+  },
+  {
+    "issn": "1745-7645",
+    "journal_name": "International Journal of Operational Research",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1751-6447",
+    "journal_name": "Afro-Asian Journal of Finance and Accounting",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1752-8224",
+    "journal_name": "International Journal of Accounting and Finance",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1752-3583",
+    "journal_name": "International Journal of Dynamical Systems and Differential Equations",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1368-275X",
+    "journal_name": "International Journal of Entrepreneurship and Innovation Management",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "2052-0352",
+    "journal_name": "International Journal of Gender Studies in Developing Societies",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1744-7550",
+    "journal_name": "International Journal of Postharvest Technology and Innovation",
+    "country": "United Kingdom",
+    "Quartile": "Q3"
+  },
+  {
+    "issn": "1746-966X",
+    "journal_name": "Journal for Global Business Advancement",
+    "country": "United Kingdom",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1755-3830",
+    "journal_name": "International Journal of Banking, Accounting and Finance",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1758-2164",
+    "journal_name": "International Journal of Business Continuity and Risk Management",
+    "country": "Switzerland",
+    "Quartile": "Q4"
+  },
+  {
+    "issn": "1754-3037",
+    "journal_name": "International Journal of Corporate Governance",
+    "Quartile": "",
+    "country": ""
+  },
+  {
+    "issn": "1476-1300",
+    "journal_name": "International Journal of Internet and Enterprise Management",
+    "Quartile": "",
+    "country": ""
+  }
+]
