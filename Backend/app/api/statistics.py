@@ -17,9 +17,9 @@ from pyspark.sql.types import StructType, StructField, StringType, IntegerType
 from pyspark.sql.functions import substring, col, count,explode,countDistinct
 spark = SparkSession.builder.appName("myApp") \
 .config("spark.mongodb.input.uri",
-"mongodb://127.0.0.1/ScrappingItems.allItems") \
+"mongodb://127.0.0.1/ScrappingItems.allItemsWithQuartiles") \
 .config("spark.mongodb.output.uri",
-"mongodb://127.0.0.1/ScrappingItems.allItems") \
+"mongodb://127.0.0.1/ScrappingItems.allItemsWithQuartiles") \
 .config('spark.jars.packages',
 'org.mongodb.spark:mongo-spark-connector_2.12:2.4.2') \
 .getOrCreate()
@@ -115,22 +115,34 @@ def calculate_average_authors_per_article(current_user: UserDB = Depends(get_cur
 @has_role("superadmin")
 def get_articles_journals_authors_statistics_with_sum(current_user: UserDB = Depends(get_current_user)):
     df = spark.read.format("mongo").load()
+    # Number of articles
+    num_articles = df.select("_id").distinct().count()
+
+    # Number of journals
+    num_journals = df.select("journal_name").distinct().count()
+
+    num_publisher = df.select("publisher").distinct().count()
+
+    filtered_df_Q1 = df.filter(df["Quartile"] == "Q1")
+    num_journals_Q1 = filtered_df_Q1.select("journal_name").distinct().count()
+    filtered_df_Q2 = df.filter(df["Quartile"] == "Q2")
+    num_journals_Q2 = filtered_df_Q2.select("journal_name").distinct().count()
+    filtered_df_Q3 = df.filter(df["Quartile"] == "Q3")
+    num_journals_Q3 = filtered_df_Q3.select("journal_name").distinct().count()
+    filtered_df_Q4 = df.filter(df["Quartile"] == "Q4")
+    num_journals_Q4 = filtered_df_Q4.select("journal_name").distinct().count()
+
     # Éclater le tableau d'auteurs pour avoir une ligne par auteur
     df = df.withColumn("author", explode("authors"))
     # Extract author names
     df = df.withColumn("author_name", col("author.Name"))
-    # Extract author names
-    df = df.withColumn("author_name", col("author.Name"))
-     # Number of articles
-    num_articles = df.select("title").distinct().count()
 
-    # Number of journals
-    num_journals = df.select("journal_name").distinct().count()
+
 
     # Number of unique authors
     num_authors = df.select(countDistinct("author_name")).collect()[0][0]
 
 
-    return {"nombre d'articles ":num_articles,"nombre de journals" :num_journals,"nombre d'auteurs": num_authors}
+    return {"articles":num_articles,"journals" :num_journals,"publisher":num_publisher,"auteurs": num_authors,"Q1":num_journals_Q1,"Q2":num_journals_Q2,"Q3":num_journals_Q3,"Q4":num_journals_Q4}
 
 # https://chat.openai.com/share/14740996-83ad-42fe-af87-4de349f2b930

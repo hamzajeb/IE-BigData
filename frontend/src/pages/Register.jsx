@@ -10,14 +10,33 @@ import { toast } from 'react-toastify';
 import Checkbox from '@mui/material/Checkbox';
 import { Outlet, useNavigate } from 'react-router-dom'
 import Link from '@mui/material/Link';
-import Grid from '@mui/material/Grid';
+import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
+import Drawer from '@mui/material/Drawer';
+import MuiAppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import List from '@mui/material/List';
+import Typography from '@mui/material/Typography';
+import Divider from '@mui/material/Divider';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
+import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import InboxIcon from '@mui/icons-material/MoveToInbox';
+import MailIcon from '@mui/icons-material/Mail';
+import Grid from '@mui/material/Grid';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import MuiAlert from '@mui/material/Alert';
-import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { CreateUser } from '../Utils/AuthRequest';
+import Navbar from '../components/Navbar';
+
+
 
 const Alert = React.forwardRef(function Alert(props, ref) {
     return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
@@ -26,7 +45,7 @@ const Alert = React.forwardRef(function Alert(props, ref) {
 function Copyright(props) {
 
   return (
-    <Typography variant="body2" color="text.secondary" align="center" {...props}>
+    <Typography variant="body2" style={{color:"rgba(231, 227, 252, 0.87)"}} color="text.secondary" align="center" {...props}>
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
         Your Website
@@ -115,6 +134,7 @@ export default function Register() {
   };
   return (
     <>   
+    <Navbar/>
     <Snackbar anchorOrigin={{ vertical, horizontal }} open={openSnack} autoHideDuration={2000} onClose={handleCloseSnack}>
   <Alert onClose={handleCloseSnack} severity="success" sx={{ width: '100%' }}>
   You Are Registered Successfully  !
@@ -133,7 +153,6 @@ export default function Register() {
         <div></div>
       </div>
       </Backdrop>
-    <Box >
 
         <Box style={{position:"absolute",top:"11vh",left:"0",width:"50vw"}}>
     <ThemeProvider theme={defaultTheme}>
@@ -147,12 +166,18 @@ export default function Register() {
             alignItems: 'left',
           }}
         >
-          <p className='welcome'>Join us today</p>
-          <p className='welcomeText'>Enter your email and password to register</p>
+          <p className='welcome' >Join us today</p>
+          <p className='welcomeText' style={{color:"rgba(231, 227, 252, 0.87)"}}>Enter your email and password to register</p>
           <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <TextField
+  InputProps={{
+    style: {
+      color: 'rgba(231, 227, 252, 0.87)', // Text color
+
+    },
+  }}
                   autoComplete="given-name"
                   name="firstName"
                   required
@@ -166,6 +191,12 @@ export default function Register() {
               <Grid item xs={12} sm={6}>
                 <TextField
                   required
+                  InputProps={{
+                    style: {
+                      color: 'rgba(231, 227, 252, 0.87)', // Text color
+                
+                    },
+                  }}
                   fullWidth
                   id="lastName"
                   label="Last Name"
@@ -177,6 +208,12 @@ export default function Register() {
                 <TextField
                   required
                   fullWidth
+                  InputProps={{
+                    style: {
+                      color: 'rgba(231, 227, 252, 0.87)', // Text color
+                
+                    },
+                  }}
                   id="email"
                   label="Email Address"
                   name="email"
@@ -187,17 +224,17 @@ export default function Register() {
                 <TextField
                   required
                   fullWidth
+                  InputProps={{
+                    style: {
+                      color: 'rgba(231, 227, 252, 0.87)', // Text color
+                
+                    },
+                  }}
                   name="password"
                   label="Password"
                   type="password"
                   id="password"
                   autoComplete="new-password"
-                />
-              </Grid>
-              <Grid item xs={12}>
-                <FormControlLabel
-                  control={<Checkbox value="allowExtraEmails" color="primary" />}
-                  label="I want to receive inspiration, marketing promotions and updates via email."
                 />
               </Grid>
             </Grid>
@@ -206,12 +243,13 @@ export default function Register() {
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
+              style={{backgroundColor:"rgb(145, 85, 253)"}}
             >
               Sign Up
             </Button>
             <Grid container justifyContent="flex-end">
               <Grid item>
-                <Link onClick={signIn} style={{cursor:"pointer"}} variant="body2">
+                <Link onClick={signIn} style={{cursor:"pointer",color:"rgba(231, 227, 252, 0.87)"}} variant="body2" >
                   Already have an account? Sign in
                 </Link>
               </Grid>
@@ -224,7 +262,6 @@ export default function Register() {
     </Box>
     <Box style={{position:"absolute",top:"0",left:"50vw",width:"50vw",height:"100%",overflow:"hidden"}}>
 <Box className='middleBg2'></Box>
-    </Box>
     </Box>
     </>
   );

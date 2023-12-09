@@ -12,6 +12,7 @@ import Fingerprint from '@mui/icons-material/Fingerprint';
 import {
   FundFilled
 } from '@ant-design/icons';
+import GridViewIcon from '@mui/icons-material/GridView';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Button from '@mui/material/Button';
 import FormGroup from '@mui/material/FormGroup';
@@ -44,9 +45,9 @@ export default function Navbar() {
     setAnchorEl(null);
     navigation(`/`)
   };
-  const predict = () => {
+  const dashboard = () => {
     setAnchorEl(null);
-    navigation(`/predict`)
+    navigation(`/dashboard`)
   };
   const handleClose = () => {
     setAnchorEl(null);
@@ -77,21 +78,21 @@ export default function Navbar() {
       color: "rgb(52, 71, 103)",borderRadius: "10rem",boxShadow: "rgba(20, 20, 20, 0.12) 0rem 0.25rem 0.375rem -0.0625rem, rgba(20, 20, 20, 0.07) 0rem 0.125rem 0.25rem -0.0625rem",
       backdropFilter: "saturate(200%) blur(30px)"}}>
         <Toolbar>
-       {/* <FundFilled  sx={{ fontSize: 40,color:"#1976d2" }} style={{marginLeft:"1vw"}}/> */}
+       <GridViewIcon  sx={{ fontSize: 30,color:"rgb(145, 85, 253)" }} style={{marginLeft:"1vw"}}/>
           <p
           className='title'
           >
-           Dashboard / <span style={{color:"#1976d2"}}>Blockchain</span> 
+           Dashboard / <span style={{color:"rgb(145, 85, 253)"}}>Blockchain</span> 
           </p>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             
           </Typography>
           {auth && (
             <div style={{marginRight: "2vw"}}>
-              {Cookies.get('tokenBigData')=== undefined?<IconButton aria-label="fingerprint" onClick={handleMenu} color="primary">
+              {Cookies.get('tokenBigData')=== undefined?<IconButton aria-label="fingerprint" onClick={handleMenu} style={{color:"rgb(145, 85, 253)"}}>
   <Fingerprint fontSize="large"/>
 </IconButton>:
-<Button onClick={handleMenu} variant="text" style={{fontWeight:"600"}}>{Cookies.get('email')}</Button>}
+<Button onClick={handleMenu} variant="text" style={{fontWeight:"600",color:"rgb(145, 85, 253)"}}>{Cookies.get('email')}</Button>}
 {Cookies.get('tokenBigData')?
               <Menu
                 id="menu-appbar"
@@ -109,7 +110,7 @@ export default function Navbar() {
                 onClose={handleClose}
               >
                 <MenuItem onClick={accueil}>Accueil</MenuItem>
-                <MenuItem onClick={predict}>Predict</MenuItem>
+                <MenuItem onClick={dashboard}>Dashboard</MenuItem>
                 <MenuItem onClick={logout}>Log Out</MenuItem>
               </Menu>:
                             <Menu

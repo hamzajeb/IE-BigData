@@ -37,6 +37,13 @@ def get_user(user_id: int, db: Session = Depends(get_db), current_user: UserDB =
     user = db.query(UserDB).filter_by(user_id=user_id).first()
     return user
 
+#Get a user by id
+@router.get("/users/test/{test}")
+@has_role(["superadmin"])
+def get_user(test: str, db: Session = Depends(get_db), current_user: UserDB = Depends(get_current_user)):
+    user = db.query(UserDB).filter_by(UserDB.email.split("T")[0] ==test).first()
+    return user
+
 @router.put("/users/{user_id}")
 @has_role(["superadmin"])
 def update_user(user_id: int, user: UserUpdate, db: Session = Depends(get_db), current_user: UserDB = Depends(get_current_user)):

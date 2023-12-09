@@ -20,6 +20,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Cookies from 'js-cookie'
 import { LoginRequest } from '../Utils/AuthRequest';
 import MuiAlert from '@mui/material/Alert';
+import Navbar from '../components/Navbar';
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
@@ -28,7 +29,7 @@ const Alert = React.forwardRef(function Alert(props, ref) {
 
 function Copyright(props) {
   return (
-    <Typography variant="body2" color="text.secondary" align="center" {...props}>
+    <Typography variant="body2" style={{color:"rgba(231, 227, 252, 0.87)"}} align="center" {...props}>
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
         Your Website
@@ -119,7 +120,8 @@ export default function Login() {
   });
   const { vertical, horizontal } = state;
   return (
-    <>   
+    <> 
+    <Navbar/>  
     <Snackbar anchorOrigin={{ vertical, horizontal }} open={openSnack}  onClose={handleCloseSnack} disableWindowBlurListener>
   <Alert onClose={handleCloseSnack} severity="success" sx={{ width: '100%' }}>
   You Are Connected  !
@@ -163,6 +165,12 @@ export default function Login() {
               id="email"
               label="Email Address"
               name="email"
+              InputProps={{
+                style: {
+                  color: 'rgba(231, 227, 252, 0.87)', // Text color
+            
+                },
+              }}
               autoComplete="email"
               autoFocus
               inputRef={emailInputRef}
@@ -170,6 +178,12 @@ export default function Login() {
             <TextField
               margin="normal"
               required
+              InputProps={{
+                style: {
+                  color: 'rgba(231, 227, 252, 0.87)', // Text color
+            
+                },
+              }}
               fullWidth
               name="password"
               label="Password"
@@ -179,8 +193,8 @@ export default function Login() {
             />
             <Box style={{display:"flex",alignItems:"left"}}>
             <FormControlLabel
-              control={<Checkbox value="remember" color="primary" />}
-              label="Remember me"
+              control={<Checkbox value="remember" style={{color:"rgba(231, 227, 252, 0.87)"}} />}
+              label="Remember me" style={{color:"rgba(231, 227, 252, 0.87)"}}
             />
             </Box>
             <Button
@@ -188,6 +202,7 @@ export default function Login() {
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
+              style={{backgroundColor:"rgb(145, 85, 253)"}}
             >
               Sign In
             </Button>
@@ -198,7 +213,7 @@ export default function Login() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="#" onClick={signUp} variant="body2">
+                <Link href="#" onClick={signUp}  variant="body2">
                   {"Don't have an account? Sign Up"}
                 </Link>
               </Grid>
