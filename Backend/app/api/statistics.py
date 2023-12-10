@@ -145,4 +145,17 @@ def get_articles_journals_authors_statistics_with_sum(current_user: UserDB = Dep
 
     return {"articles":num_articles,"journals" :num_journals,"publisher":num_publisher,"auteurs": num_authors,"Q1":num_journals_Q1,"Q2":num_journals_Q2,"Q3":num_journals_Q3,"Q4":num_journals_Q4}
 
+from fastapi.responses import JSONResponse
+@router.get("/articles/")
+@has_role("superadmin")
+def get_articles(current_user: UserDB = Depends(get_current_user)):
+    df = spark.read.format("mongo").load()
+    pandas_df = df.toPandas()
+
+    # Convertir le Pandas DataFrame en JSON
+    json_data = pandas_df.to_json(orient="records")
+
+    # Retourner les données JSON
+    return JSONResponse(content=json_data)
+
 # https://chat.openai.com/share/14740996-83ad-42fe-af87-4de349f2b930

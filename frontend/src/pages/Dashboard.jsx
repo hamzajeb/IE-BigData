@@ -53,8 +53,11 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { CreateUser } from '../Utils/AuthRequest';
 import Navbar from '../components/Navbar';
-import { getStaics } from '../Utils/DashboardRequest';
+import { getArticles, getStaics } from '../Utils/DashboardRequest';
+import Articles from './Articles';
 export default function Dashboard(){
+  const [page,setPage]= React.useState("Statiques")
+  const [articles,setArticles]= React.useState([])
   const [state, setState] = React.useState({
     top: false,
     left: false,
@@ -80,7 +83,24 @@ export default function Dashboard(){
       <List>
         {['Statiques', 'Graphes', 'Articles', 'Map'].map((text, index) => (
           <>
-          <ListItem key={text} disablePadding>
+          <ListItem key={text} disablePadding onClick={async ()=>{setPage(text);
+            if(text==='Articles'){
+              console.log("hhhh")
+              if(articles.length===0){
+                handleOpenLoader()
+                await getArticles().then((res) => {
+                  const parsedData = JSON.parse(res.data);
+                  const filteredData = parsedData.filter(article =>
+                    Object.values(article).every(value => value !== null && value !== '' && value !== undefined)
+                  );
+              
+                  const sortedData = [...filteredData, ...parsedData.filter(article => !filteredData.includes(article))];
+                  setArticles(sortedData)
+                  handleCloseLoader()
+                })
+              }
+            }
+            }}>
             <ListItemButton>
               <ListItemIcon>
                 {index === 0 && <QueryStatsIcon style={{color:"rgb(145, 85, 253)",fontWeight:"bold"}}/> }
@@ -286,7 +306,7 @@ return(
               </Menu>
     </div>
 
-
+{page==="Statiques"&&<>
     <div style={{display:"flex",flexDirection:"row"}}>
   <div className='container1' style={{transform: "scale(0.5)"}}>
   
@@ -314,28 +334,28 @@ return(
 <GridViewIcon   sx={{ fontSize: 30,color:"rgb(145, 85, 253)",marginRight:"2vw" }} />
   <div style={{textAlign:"left"}}>
   <p style={{color:"rgba(231, 227, 252, 0.6)",fontWeight: "800",}}>Nombre d'articles </p>
-  <CountUp end={data.articles} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={15}/>
+  <CountUp end={data.articles} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={10}/>
   </div>
 </div>
 <div style={{border:"2px solid rgb(145, 85, 253)",width:"21.5vw",marginRight:"1.33vw",padding:"2vh 1vw",display:"flex",flexDirection:"row",alignItems:"center"}}>
 <FeedIcon   sx={{ fontSize: 30,color:"rgb(86, 202, 0)",marginRight:"2vw" }} />
   <div style={{textAlign:"left"}}>
 <p style={{color:"rgba(231, 227, 252, 0.6)",fontWeight: "800"}}>Nombre de journaux </p>
-<CountUp end={data.journals} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={15}/>
+<CountUp end={data.journals} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={10}/>
 </div>
 </div>
 <div style={{border:"2px solid rgb(145, 85, 253)",width:"21.5vw",marginRight:"1.33vw",padding:"2vh 1vw",display:"flex",flexDirection:"row",alignItems:"center"}}>
 <GroupsIcon   sx={{ fontSize: 30,color:"rgb(22, 177, 255)",marginRight:"2vw" }} />
   <div style={{textAlign:"left"}}>
 <p style={{color:"rgba(231, 227, 252, 0.6)",fontWeight: "800"}}>Nombre  d'auteurs </p>
-<CountUp end={data.auteurs} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={15}/>
+<CountUp end={data.auteurs} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={10}/>
 </div>
 </div>
 <div style={{border:"2px solid rgb(145, 85, 253)",width:"21.5vw",padding:"2vh 1vw",display:"flex",flexDirection:"row",alignItems:"center"}}>
 <PublishIcon   sx={{ fontSize: 30,color:"rgb(255, 180, 0)",marginRight:"2vw" }} />
   <div style={{textAlign:"left"}}>
 <p style={{color:"rgba(231, 227, 252, 0.6)",fontWeight: "800"}}>Nombre d'editurs </p>
-<CountUp end={data.publisher} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={15}/>
+<CountUp end={data.publisher} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={10}/>
 </div>
 </div>
 </div>
@@ -345,33 +365,69 @@ return(
 <h1 style={{color:"white",marginRight:"2vw" }}>Q1</h1>
   <div style={{textAlign:"left"}}>
   <p style={{color:"rgba(231, 227, 252, 0.6)",fontWeight: "800",}}>Nombre de journaux (Q1) </p>
-  <CountUp end={data.Q1} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={15}/>
+  <CountUp end={data.Q1} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={10}/>
   </div>
 </div>
 <div style={{border:"2px solid rgb(145, 85, 253)",width:"21.5vw",marginRight:"1.33vw",padding:"2vh 1vw",display:"flex",flexDirection:"row",alignItems:"center"}}>
 <h1 style={{color:"white",marginRight:"2vw" }}>Q2</h1>
   <div style={{textAlign:"left"}}>
 <p style={{color:"rgba(231, 227, 252, 0.6)",fontWeight: "800"}}>Nombre de journaux (Q2)</p>
-<CountUp end={data.Q2} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={15}/>
+<CountUp end={data.Q2} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={10}/>
 </div>
 </div>
 <div style={{border:"2px solid rgb(145, 85, 253)",width:"21.5vw",marginRight:"1.33vw",padding:"2vh 1vw",display:"flex",flexDirection:"row",alignItems:"center"}}>
 <h1 style={{color:"white",marginRight:"2vw" }}>Q3</h1>
   <div style={{textAlign:"left"}}>
 <p style={{color:"rgba(231, 227, 252, 0.6)",fontWeight: "800"}}>Nombre  de journaux (Q3)</p>
-<CountUp end={data.Q3} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={15}/>
+<CountUp end={data.Q3} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={10}/>
 </div>
 </div>
 <div style={{border:"2px solid rgb(145, 85, 253)",width:"21.5vw",padding:"2vh 1vw",display:"flex",flexDirection:"row",alignItems:"center"}}>
 <h1 style={{color:"white",marginRight:"2vw" }}>Q4</h1>
   <div style={{textAlign:"left"}}>
 <p style={{color:"rgba(231, 227, 252, 0.6)",fontWeight: "800"}}>Nombre de journaux (Q4)</p>
-<CountUp end={data.Q4} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={15}/>
+<CountUp end={data.Q4} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={10}/>
 </div>
 </div>
 
 </div>
   </div>
+  </>}
+  {page==="Articles"&&<>
+  <div style={{display:"flex",flexDirection:"column",marginTop:"4vh"}}>
+<div style={{padding:"0 2vw 5vh",flex:"1 1 1 1",display:"flex",flexDirection:"row"}}>
+<div style={{border:"2px solid rgb(145, 85, 253)",width:"21.5vw",marginRight:"1.33vw",padding:"2vh 1vw",display:"flex",flexDirection:"row",alignItems:"center"}}>
+<FeedIcon   sx={{ fontSize: 30,color:"rgb(145, 85, 253)",marginRight:"2vw" }} />
+  <div style={{textAlign:"left"}}>
+  <p style={{color:"rgba(231, 227, 252, 0.6)",fontWeight: "800",}}>IEEE</p>
+  <CountUp end={3224} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={10}/>
+  </div>
+</div>
+<div style={{border:"2px solid rgb(145, 85, 253)",width:"21.5vw",marginRight:"1.33vw",padding:"2vh 1vw",display:"flex",flexDirection:"row",alignItems:"center"}}>
+<FeedIcon   sx={{ fontSize: 30,color:"rgb(86, 202, 0)",marginRight:"2vw" }} />
+  <div style={{textAlign:"left"}}>
+<p style={{color:"rgba(231, 227, 252, 0.6)",fontWeight: "800"}}>Science Direct </p>
+<CountUp end={392} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={10}/>
+</div>
+</div>
+<div style={{border:"2px solid rgb(145, 85, 253)",width:"21.5vw",marginRight:"1.33vw",padding:"2vh 1vw",display:"flex",flexDirection:"row",alignItems:"center"}}>
+<FeedIcon   sx={{ fontSize: 30,color:"rgb(22, 177, 255)",marginRight:"2vw" }} />
+  <div style={{textAlign:"left"}}>
+<p style={{color:"rgba(231, 227, 252, 0.6)",fontWeight: "800"}}>InderScienceOnline</p>
+<CountUp end={1100} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={10}/>
+</div>
+</div>
+<div style={{border:"2px solid rgb(145, 85, 253)",width:"21.5vw",padding:"2vh 1vw",display:"flex",flexDirection:"row",alignItems:"center"}}>
+<FeedIcon   sx={{ fontSize: 30,color:"rgb(255, 180, 0)",marginRight:"2vw" }} />
+  <div style={{textAlign:"left"}}>
+<p style={{color:"rgba(231, 227, 252, 0.6)",fontWeight: "800"}}>ACM </p>
+<CountUp end={252} style={{fontSize: "xxx-large",fontWeight: "200",color: "rgba(231, 227, 252, 0.87)"}} duration={10}/>
+</div>
+</div>
+</div>
+</div>
+<Articles articles={articles}/>
+  </>}
   </div>
   </>
 )

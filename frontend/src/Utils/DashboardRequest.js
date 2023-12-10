@@ -19,3 +19,9 @@ export async function getStaics() {
     const res = API.get('/statistics/count/')
     return res
 }
+
+
+export async function getArticles() {
+    const res = API.get('/statistics/articles/')
+    return res
+}

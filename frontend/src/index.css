@@ -875,6 +875,17 @@ p {
   height: 70%;
   
 }
+.ant-table-wrapper .ant-table-pagination.ant-pagination {
+  margin: 16px 0;
+  flex-direction: row !important;
+  
+}
+:where(.css-dev-only-do-not-override-73yk0u).ant-table-wrapper .ant-table-pagination.ant-pagination {
+  flex-direction: column !important;
+}
+:where(.css-dev-only-do-not-override-1y0dhnf).ant-table-wrapper .ant-table-pagination.ant-pagination{
+  flex-direction: column !important;
+}
 
 .image2{
   position: absolute;
