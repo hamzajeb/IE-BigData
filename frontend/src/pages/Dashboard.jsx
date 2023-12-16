@@ -53,9 +53,16 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { CreateUser } from '../Utils/AuthRequest';
 import Navbar from '../components/Navbar';
-import { getArticles, getStaics } from '../Utils/DashboardRequest';
+import { getArticles, getArticlesQ1, getStaics ,geKeywords, getJournals, getYears, getAuthors} from '../Utils/DashboardRequest';
 import Articles from './Articles';
+import Map from './Map';
+import Chartjs from './Chart';
 export default function Dashboard(){
+  const[Q1,setQ1]=useState([])
+  const[keywords,setKeywords]=useState([])
+  const[journals,setJournals]=useState([])
+  const[authors,setAuthors]=useState([])
+  const[years,setYears]=useState([])
   const [page,setPage]= React.useState("Statiques")
   const [articles,setArticles]= React.useState([])
   const [state, setState] = React.useState({
@@ -83,10 +90,13 @@ export default function Dashboard(){
       <List>
         {['Statiques', 'Graphes', 'Articles', 'Map'].map((text, index) => (
           <>
-          <ListItem key={text} disablePadding onClick={async ()=>{setPage(text);
-            if(text==='Articles'){
+          <ListItem key={text} disablePadding onClick={async ()=>{
+            if(text==='Statiques'){
+              setPage(text)
+            }else if(text==='Articles'){
               console.log("hhhh")
               if(articles.length===0){
+                setPage(text)
                 handleOpenLoader()
                 await getArticles().then((res) => {
                   const parsedData = JSON.parse(res.data);
@@ -99,6 +109,31 @@ export default function Dashboard(){
                   handleCloseLoader()
                 })
               }
+            }else if (text==="Map"){
+              handleOpenLoader()
+                await getArticlesQ1().then((res) => {
+                  setQ1(res.data)
+                  handleCloseLoader()
+                  setPage(text)
+                })
+            }else if (text==="Graphes"){
+              handleOpenLoader()
+                await geKeywords().then((res) => {
+                  setKeywords(res.data)
+                })
+                await getJournals().then((res) => {
+                  setJournals(res.data)
+                })
+                await getYears().then((res) => {
+                  console.log("grrrrrrrrr")
+                  console.log(res.data.filter(item => item.hasOwnProperty("publication_year")&& item.publication_year !== 2024))
+                  setYears(res.data.filter(item => item.hasOwnProperty("publication_year")&& item.publication_year !== 2024))
+                })
+                await getAuthors().then((res) => {
+                  setAuthors(res.data)
+                  handleCloseLoader()
+                  setPage(text)
+                })
             }
             }}>
             <ListItemButton>
@@ -231,6 +266,8 @@ function Rain(cloudClass) {
             })
             
           }
+          const mapRef = useRef();
+       
 return(
   <>
           <Backdrop
@@ -428,6 +465,10 @@ return(
 </div>
 <Articles articles={articles}/>
   </>}
+  {page==="Map"&&<>
+  <Map mapRef={mapRef} Q1={Q1} handleOpenLoader={handleOpenLoader} handleCloseLoader={handleCloseLoader}/>
+  </>}
+  {page==="Graphes"&&<Chartjs keywords={keywords} journals={journals} years={years} authors={authors}/>}
   </div>
   </>
 )

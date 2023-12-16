@@ -1007,6 +1007,182 @@ p {
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
+.leaflet-container{
+  height: 85vh; 
+  width: 100%;
+}
+/* .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+  overflow: revert !important;
+} */
+/* .css-tlc64q-MuiPaper-root-MuiDialog-paper{
+  overflow: revert !important;
+} */
+.leaflet-bottom {
+  bottom: 0;
+  display: none !important;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root.Mui-disabled{
+  background-color: #B3B3B3 !important;
+  color: black !important
+}
+.css-xg9u7b-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {
+  padding: 7.5px 4px 7.5px 6px !important;
+}
+.css-1xhypcz-MuiStack-root{
+  padding-top:  0px !important;
+}
+.circle{
+  background-color: #10BB55;
+  color:white;
+  width:5em !important;
+  height:5em !important;
+  position: relative;
+  border-radius: 50%;
+}
+
+.circleAvatar{
+  width:5em !important;
+  height:5em !important;
+  position: relative;
+  border-radius: 50%;
+  border:2px solid white
+}
+
+.circleAvatar2{
+  width:5em !important;
+  height:5em !important;
+  position: relative;
+  border-radius: 50%;
+  border:2px solid #4E4FEB
+}
+
+/* .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+  width: 80vw !important;
+} */
+.triangle {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-77%);
+  border-left: 1.25em solid transparent;
+  border-right: 1.25em solid transparent;
+  border-bottom: 2.5em solid #10BB55;
+  border-radius: 20px;
+}
+.rectangle{
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-135%);
+  width: 13em;
+  height: 2.5em;
+  background-color: #10BB55;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+ 
+}
+
+/* .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{
+  width: 75% !important;
+} */
+
+.css-13bvbr1-MuiStack-root {
+  width: 100% !important;
+}
+.leaflet-container .leaflet-marker-pane img{
+  z-index: 200000 !important;
+}
+
+.fly{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  color:#4E4FEB !important;
+  font-weight: 800 !important;
+  font-size: 1.3rem !important;
+}
+.name{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  margin: 0 !important;
+  justify-content: center;
+}
+.psudo{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2.5em;
+  padding: 0 !important;
+  margin: 0 !important;
+  transform: translate(-50%,-50%);
+}
+.itemText{
+  color:"#6F6F6F";
+}
+
+.noResult{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.chooseMethod{
+  margin: 3vh 0 2vh !important;
+  background-color:#4E4FEB !important;
+  color:white !important;
+  display:block !important;
+  width:100% !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: medium !important;
+}
+
+.css-fkxlgy {
+  width: 100% !important;
+}
+
+.textNoResult{
+  color: black;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-size: 1.5em !important;
+  font-weight: 800 !important;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  height: 3vh !important;
+  padding: 2vh 1vw !important;
+}
+
+.css-10hburv-MuiTypography-root{
+  font-weight: 600 !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+.psudo2{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1em;
+  padding: 0 !important;
+  margin: 0 !important;
+  transform: translate(-50%,-50%);
+}
+
+
+
+
+
 .gestion2{
 
 
