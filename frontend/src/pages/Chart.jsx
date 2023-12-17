@@ -192,8 +192,7 @@ export default function Chartjs(props) {
 <Line    data={data3} options={options3} />
 </div>
 <div style={{margin:"5vh auto 5vh",position:"relative",width:"92vw",height:"45vh",padding:"5vh 5vh 14vh",border:"1px solid rgba(231, 227, 252, 0.12)",borderRadius:"6px",textAlign:"left"}}>
-        <h2 style={{color:"rgba(231, 227, 252, 0.87)",marginBottom:"1vh"}}>Évolution du Nombre d'Articles par Année</h2>
-        <h3 style={{color:"rgba(231, 227, 252, 0.38)",marginBottom:"3vh"}}>2015-2023</h3>
+        <h2 style={{color:"rgba(231, 227, 252, 0.87)",marginBottom:"1vh"}}>Production d'Articles par Auteur : Analyse de la Distribution</h2>
 <Bar    data={data4} options={options4} />
 </div>
 
